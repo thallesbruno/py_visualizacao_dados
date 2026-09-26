@@ -1,0 +1,34 @@
+# Estruturas de Dados em Python
+
+lista_produtos = ["iphone", "ipad", "airpod", "macbook"]
+tupla_produtos = ("iphone", "ipad", "airpod", "macbook")
+set_produtos = {"iphone", "ipad", "airpod", "macbook"}
+
+
+# Listas
+lista_produtos.append("apple watch")  # Adiciona um item no final da lista
+lista_produtos.insert(1, "apple tv")  # Adiciona um item em uma posição específica
+lista_produtos.remove("airpod")  # Remove um item da lista
+print(lista_produtos)  # Exibe a lista atualizada
+
+# Tuplas
+# Tuplas são imutáveis, então não podemos adicionar ou remover itens
+print(tupla_produtos)  # Exibe a tupla
+
+# Sets
+set_produtos.add("apple watch")  # Adiciona um item ao set
+set_produtos.remove("airpod")  # Remove um item do set
+print(set_produtos)  # Exibe o set atualizado
+
+# Diferenças entre as estruturas:
+# - Listas: são mutáveis e permitem duplicatas
+# - Tuplas: são imutáveis e permitem duplicatas
+# - Sets: são mutáveis e não permitem duplicatas
+
+# Diferenças entre Set e Dicionário:
+# - Sets: são coleções não ordenadas de elementos únicos
+# - Dicionários: são coleções de pares chave-valor, onde cada chave é única
+
+set_produtos_new = {"iphone", "ipad", "airpod", "macbook"}
+dic_produtos = {"iphone": 1500, "ipad": 5000, "airpod": 2000, "macbook": 3000}
+
