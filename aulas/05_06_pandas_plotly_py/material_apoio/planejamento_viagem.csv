@@ -1,0 +1,10 @@
+Descricao,Categoria,Quantidade,Preco,Total
+Voos,Transporte,2,400.0,800.0
+Taxi e Onibus,Transporte,5,30.0,150.0
+Conducao,Transporte,50,0.56,28.0
+Estacionamento,Transporte,6,14.95,89.7
+Hotel,Hospedagem,5,120.0,600.0
+Cafes e Lanches,Alimentacao,3,45.0,135.0
+Restaurantes,Alimentacao,4,70.0,280.0
+Passeios,Entretenimento,2,55.0,110.0
+Souvenires,Outros,5,100.0,500.0
