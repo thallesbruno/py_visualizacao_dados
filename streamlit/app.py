@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 
 st.title("Cadastro de Fornecedores")
 st.header("Sistema de Gestão")
@@ -44,3 +45,12 @@ if st.button("Testar Cadastro"):
     st.write("CNPJ:", cnpj)
     st.write("Estado:", estado)
     st.write("Isento:", isento)
+
+# 1. Cria um espaço reservado na tela
+placeholder = st.empty()
+
+placeholder.warning("Este aviso vai desaparecer em 3 segundos!")
+
+time.sleep(3)
+
+placeholder.empty()
